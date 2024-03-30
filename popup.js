@@ -1,6 +1,10 @@
 const AIWebsites = {
     ChatGPT: "https://chat.openai.com",
     Gemini: "https://gemini.google.com",
+    Mistral: "https://chat.mistral.ai",
+    'Claude.ai': "https://claude.ai",
+    'Bing AI': "https://www.bing.com/chat"
+
 };
 
 const popupLinks = document.querySelector(".popup-links");
