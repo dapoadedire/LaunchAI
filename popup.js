@@ -17,6 +17,10 @@ for (const [name, url] of Object.entries(AIWebsites)) {
     chrome.tabs.query({ url: `${url}/*` }, (tabs) => {
       if (tabs.length > 0) {
         // If tab is found, switch to it
+
+        // Sort tabs by last accessed time
+        tabs.sort((a,b)=> b.lastAccessed - a.lastAccessed);
+        // Switch to the most recently accessed tab
         chrome.tabs.update(tabs[0].id, { active: true });
       } else {
         // If no tab is found, create a new one
