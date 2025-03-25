@@ -5,6 +5,7 @@ const AIWebsites = {
   "Claude.AI": "https://claude.ai",
   "Bing AI": "https://www.bing.com/chat",
   "Perplexity.AI": "https://www.perplexity.ai",
+  "Deepseek": "https://chat.deepseek.com",
 };
 
 const popupLinks = document.querySelector(".popup-links");
