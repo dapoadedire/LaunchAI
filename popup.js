@@ -1,5 +1,5 @@
 const AIWebsites = {
-  ChatGPT: "https://chat.openai.com",
+  ChatGPT: "https://chatgpt.com",
   Gemini: "https://gemini.google.com",
   "Mistral.AI": "https://chat.mistral.ai/chat",
   "Claude.AI": "https://claude.ai",
