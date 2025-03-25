@@ -1,5 +1,7 @@
 # LaunchAI 🚀  
 
+![image](https://github.com/user-attachments/assets/6e3519d5-9552-4e42-8a56-be3f95487ee2)
+
 **LaunchAI** is a simple Chrome extension that provides quick access to popular AI chat platforms. With just one click, you can open or switch to your preferred AI chatbot, making your workflow more efficient.  
 
 ## Features  
@@ -9,13 +11,11 @@
 
 ## Supported AI Platforms  
 - ChatGPT  
-- Gemini  
-- Mistral.AI  
+- Gemini   
 - Claude.AI  
-- Bing AI  
 - Perplexity.AI  
 - Deepseek  
-- etc.
+- Grok
 
 ## Installation  
 1. Download or clone this repository.  
