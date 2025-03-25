@@ -99,3 +99,29 @@ body {
 .outline {
     outline: 1px solid greenyellow;
 }
+
+
+.ai-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: #222;
+    color: #fff;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.ai-button:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+.ai-icon {
+    width: 16px;
+    height: 16px;
+}
