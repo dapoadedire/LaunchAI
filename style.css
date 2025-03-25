@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Reddit Mono", monospace;
+    /* font-family: "DM Sans", sans-serif; */
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 body {
@@ -79,4 +80,8 @@ body {
 
 .popup-links a:hover {
     background-color: #555;
+}
+
+.outline {
+    outline: 1px solid greenyellow;
 }
