@@ -1,9 +1,7 @@
 const AIWebsites = {
-  ChatGPT: "https://chatgpt.com",
-  Gemini: "https://gemini.google.com",
-  "Mistral.AI": "https://chat.mistral.ai/chat",
+  "ChatGPT": "https://chatgpt.com",
+  "Gemini": "https://gemini.google.com",
   "Claude.AI": "https://claude.ai",
-  "Bing AI": "https://www.bing.com/chat",
   "Perplexity.AI": "https://www.perplexity.ai",
   "Deepseek": "https://chat.deepseek.com",
 };
@@ -19,7 +17,7 @@ for (const [name, url] of Object.entries(AIWebsites)) {
         // If tab is found, switch to it
 
         // Sort tabs by last accessed time
-        tabs.sort((a,b)=> b.lastAccessed - a.lastAccessed);
+        tabs.sort((a, b) => b.lastAccessed - a.lastAccessed);
         // Switch to the most recently accessed tab
         chrome.tabs.update(tabs[0].id, { active: true });
       } else {
